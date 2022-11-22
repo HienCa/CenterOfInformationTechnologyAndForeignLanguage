@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+input,button{
+    outline: none;
+}
+.hover:hover{
+    background-color: #ccc;
+}
+.hover-row:hover{
+    background-color: #2d494d !important;
+}
+li{
+    list-style-type: none;
+}
+.active{
+    display: block ;
+}
+.hide{
+    display: none
+}
+.tutorialPopup{
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    top:-200px;
+    left:300px;
+    display:none;
+}
+.tutorial:hover .tutorialPopup{
+    display: block;
+}
+.itemAbsoluteParent,
+.itemAbsoluteChild{
+    display: none;
+}
+.itemRelativeParent:hover .itemAbsoluteParent{
+    display: block;
+}
+.itemAbsoluteChild:hover .itemAbsoluteChild{
+    display: block;
+}
+.ClassInfoAbsolute{
+    position: absolute;
+    top: 450px;
+    right: 500px;
+}
+.PositionRelative{
+    position: relative;
+}
